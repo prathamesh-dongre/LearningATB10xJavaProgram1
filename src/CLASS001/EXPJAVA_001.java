@@ -1,4 +1,6 @@
-public class Tableof9 {
+package CLASS001;
+
+public class EXPJAVA_001 {
     public static void main(String [] args){
         int a=9;
         System.out.println("Table of 9");
