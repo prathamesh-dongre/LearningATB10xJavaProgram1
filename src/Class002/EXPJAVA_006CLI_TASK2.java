@@ -1,7 +1,7 @@
 package Class002;
 
-public class EXPJAVA_004CLI_TASK2 {
-    public static  void main (String args[]){
+public class EXPJAVA_006CLI_TASK2 {
+    public static  void main (String [] args){
         int n= Integer.parseInt(args[0]);
         int b= Integer.parseInt(args[1]);
         int max= (n >b) ? n : b;
