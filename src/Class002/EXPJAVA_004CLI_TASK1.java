@@ -1,6 +1,6 @@
 package Class002;
 
-public class EXPJAVA_004CLI_option {
+public class EXPJAVA_004CLI_TASK1 {
     public static void main (String [] args) {
         String name= args[0];
         int age= Integer.parseInt(args[1]);
