@@ -1,6 +1,6 @@
 package Class007Arrays;
 
-public class EXPJAVA_0372DArray {
+public class EXPJAVA_037Array2D {
     public static void main(String[] args) {
 
         int[][] array2D= new int[3][2];
