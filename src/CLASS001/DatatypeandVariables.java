@@ -1,6 +1,10 @@
 package CLASS001;
 
 public class DatatypeandVariables {
+
+    public static void main(){
+        System.out.println("Function");
+    }
     public static void main(String[] args) {
         int a =9 , b=20 ;
         short v = 10 ;
@@ -12,7 +16,8 @@ public class DatatypeandVariables {
         System.out.println(v);
         System.out.println(f);
         System.out.println(d);
-        System.out.printf("my division is %d",a);
+        System.out.printf("my division is %f",f);
 
+        main();
     }
 }

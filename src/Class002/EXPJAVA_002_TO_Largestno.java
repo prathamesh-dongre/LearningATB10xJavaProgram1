@@ -8,6 +8,9 @@ public class EXPJAVA_002_TO_Largestno { ;
         int c=200;
         int max= (a>=b)? ((a>=c) ? a :c) : (b>=c)? b:c;
 
-        System.out.printf("Maximum no is %d %n" ,c);
+        System.out.printf("Maximum no is %d %n" ,max);
+
+        //int max= (a>=b)? a:b
+        System.out.println("max is "+max);
     }
 }
