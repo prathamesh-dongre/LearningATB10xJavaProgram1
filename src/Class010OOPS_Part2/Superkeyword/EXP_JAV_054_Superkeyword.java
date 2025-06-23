@@ -11,6 +11,10 @@ public class EXP_JAV_054_Superkeyword {
         TC1.setbrowser("Edge",false);
         System.out.println(TC1.getbrowser());
 
+        Testcase1 TT1 =new Testcase1("Mozilla");
+        TT1.setbrowser("Mozilla Fire", true);
+        System.out.println(TT1.getbrowser());
+
     }
 }
 
@@ -38,5 +42,24 @@ class baseTC {
             System.out.println("Cannot change browser");
         }
 
+    }
+
+}
+
+class Testcase1 extends baseTC {
+
+
+    public Testcase1(String browser) {
+        super(browser);
+    }
+
+
+    @Override
+    public void setbrowser (String browserfox, boolean ISADMIN) {
+        System.out.println("Overide the parent Set Browser");
+        this.browser= browserfox;
+    }
+    public String getbrowser() {
+        return browser;
     }
 }
