@@ -10,13 +10,11 @@ public class EXP_071_EXAMPLE {
         System.out.println(Automation.driver2);
 
 
-
-
     }
 }
 
 
-class Automation{
-    static String driver = "Chrome";
-    static String driver2;
-}
+    class Automation {
+        static String driver = "Chrome";
+        static String driver2;
+    }

@@ -1,7 +1,10 @@
 package Class012_Static;
 
 public class EXP_070_Static_Real {
-    class ATB1{
+}
+
+    class ATB1 {
+
         {
             System.out.println("IIB - this is called when Object is created!");
             // What is the purpose? -
