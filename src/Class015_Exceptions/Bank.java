@@ -25,21 +25,19 @@ public class Bank {
     public void setAmount(Integer amount) {
         this.amount = amount;
     }
-    public Integer add(Bank bankName) {
+    public Integer add(Bank bankName) throws CustomException {
         if (bankName.currency.equalsIgnoreCase("INR")) {
             return bankName.amount + this.amount;
         } else {
-            try {
+
                 throw new CustomException("Currency Mismatch, Can't Proceed!");
-            }
-            catch (Exception e) {
-                //System.out.println(e.getMessage());
+
             }
         }
 
-        return 0;
+
     }
-}
+
 class CustomException extends Exception{
     CustomException(String msg){
         super(msg);
