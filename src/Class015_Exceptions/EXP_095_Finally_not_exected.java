@@ -1,6 +1,6 @@
 package Class015_Exceptions;
 
-public class EP_095_Finally_not_exected {
+public class EXP_095_Finally_not_exected {
 
     public static void main(String[] args) {
 
