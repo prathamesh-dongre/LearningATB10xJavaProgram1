@@ -3,6 +3,7 @@ package Class017_CollectionFrameworks.Map;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class EXP_108_MAPS_P1 {
     public static void main(String[] args) {
@@ -25,7 +26,10 @@ public class EXP_108_MAPS_P1 {
         M2.put("roll3","sukiee");
         System.out.println(M2);
 
-
-
+        Map m3 = new TreeMap();
+        m3.put("name","ABC1");
+        m3.put("surname","xyz1");
+        m3.put("Gender","M");
+        System.out.println(m3);
     }
 }
