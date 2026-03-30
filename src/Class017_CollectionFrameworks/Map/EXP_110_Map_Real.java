@@ -11,17 +11,16 @@ public class EXP_110_Map_Real {
         student1.put("name", "Diwakar");
         student1.put("phone", "9876543210");
         student1.put("address", "Bangalore");
-        student1.put("address", 123);
-
+        student1.put("address", 123);  //overwrite
+        System.out.println(student1);
 
         Set book_read_items = new HashSet();
         book_read_items.add("Rich dad Poor Dad");
         book_read_items.add("Sapaiens");
         book_read_items.add("Secret");
         book_read_items.add("Atomic Habit");
-        book_read_items.add("Atomic Habit");
+        book_read_items.add("Atomic Habit"); //ignore duplicte values
         book_read_items.add("Eat the Frog");
-
         System.out.println(book_read_items);
 
     }
